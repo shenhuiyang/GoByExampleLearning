@@ -4,8 +4,8 @@ import (
 )
 
 func main() {
-    messages := make(chan string)     //同步通道
-//    messages := make(chan string, 2)    //异步通道
+    messages := make(chan string)     //鍚屾閫氶亾
+//    messages := make(chan string, 2)    //寮傛閫氶亾
     signals := make(chan bool)
 
     select {
