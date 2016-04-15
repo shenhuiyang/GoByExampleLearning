@@ -12,7 +12,7 @@ func main() {
     fmt.Println(secs)
     fmt.Println(nanos)
 
-    //将自unix时间起到现在经过的秒数和纳秒数转化为时间
+    //灏嗚嚜Unix鏃堕棿璧峰埌鐜板湪缁忚繃鐨勭鏁板拰绾崇鏁拌浆鍖栦负鏃堕棿
     fmt.Println(time.Unix(secs, 0))
     fmt.Println(time.Unix(0, nanos))
 }
